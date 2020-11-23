@@ -3,7 +3,7 @@
 echo "Ejercicio de bucles"
 
 
-for VARIABLE in README.md patatafrita; do
+for VARIABLE in `ls *.sh`; do
 	if [ -e $VARIABLE ]; then
 		echo "Existe: $VARIABLE"
 	else
